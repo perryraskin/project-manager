@@ -20,6 +20,8 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@prisma/client": "^2.5.1",
+    "@tailwindcss/ui": "^0.5.0",
     "@types/detect-node": "^2.0.0",
     "autoprefixer": "^9.8.5",
     "dayjs": "^1.8.30",
@@ -33,13 +35,15 @@
     "prettier": "^1.19.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "tailwindcss": "^1.5.2",
+    "react-query": "^2.12.1",
+    "tailwindcss": "^1.7.6",
     "tailwindcss-spinner": "^1.2.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.2.0",
     "@graphql-codegen/typescript": "^1.2.0",
     "@graphql-codegen/typescript-operations": "^1.2.0",
+    "@prisma/cli": "^2.5.1",
     "@types/express": "^4.16.1",
     "@types/lodash": "^4.14.132",
     "@types/next": "^8.0.5",
